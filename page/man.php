@@ -24,7 +24,18 @@
 </head>
 <body>
 <div class="wrapper">
-    <header></header>
+    <header>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="float-right">
+                    <div class="logo">
+                        <div class="logo-img"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6"></div>
+        </div>
+    </header>
     <main></main>
     <footer></footer>
 </div>
