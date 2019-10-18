@@ -7,11 +7,34 @@ body{
   font-weight: normal;
   font-style: normal;
 }
+div{
+  box-sizing: border-box;
+  &:after, &:before{
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
 .header{
   padding: 10px;
   background: @bg;
 }
-
+.padding{
+  &-right{
+    padding-right: 15px;
+  }
+  &-top{
+    padding-top: 10px;
+  }
+}
+.margin{
+  &-right{
+    margin-right: 15px;
+  }
+  &-top{
+    margin-top: 10px;
+  }
+}
 .logo{
   &-img{
     @wh: 300px;
@@ -26,3 +49,30 @@ body{
     display: inline-block;
   }
 }
+@media (max-width: 576px) {
+  .block{
+    &-center{
+      &-xs{
+        display: table;
+        margin: auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .block{
+    &-center{
+      &-sm{
+        display: table;
+        margin: auto;
+      }
+    }
+  }
+}
+
+// Большие девайсы (десктопы, >= 992px)
+@media (min-width: 992px) { }
+
+// Экстрабольшие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { }

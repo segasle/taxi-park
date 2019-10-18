@@ -307,9 +307,30 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+div {
+  box-sizing: border-box;
+}
+div:after,
+div:before {
+  content: '';
+  display: block;
+  clear: both;
+}
 .header {
   padding: 10px;
   background: #fba43b;
+}
+.padding-right {
+  padding-right: 15px;
+}
+.padding-top {
+  padding-top: 10px;
+}
+.margin-right {
+  margin-right: 15px;
+}
+.margin-top {
+  margin-top: 10px;
 }
 .logo-img {
   width: 300px;
@@ -320,5 +341,17 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   display: inline-block;
+}
+@media (max-width: 576px) {
+  .block-center-xs {
+    display: table;
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .block-center-sm {
+    display: table;
+    margin: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
