@@ -56,7 +56,8 @@
                                         <i class="fab fa-whatsapp fa-3x"></i>
                                     </div>
                                     <div class="float-left">
-                                        <a href="viber://chat?number=79153301314" class="h3 padding-top d-inline-block text-white">Напишите нам в WhatsApp</a>
+                                        <a href="viber://chat?number=79153301314"
+                                           class="h3 padding-top d-inline-block text-white">Напишите нам в WhatsApp</a>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +67,31 @@
             </div>
         </div>
     </header>
-    <main></main>
+    <main>
+        <div class="wrap bg" style="background-image: url('/img/bg.jpg');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-8 col-lg-6">
+                        <h1 class="text-center text-white">ПОДКЛЮЧАЙТЕСЬ К ЗАКАЗАМ ЯНДЕКС.ТАКСИ С ФИКСИРОВАННОЙ КОМИССИЕЙ ЗА ЗАКАЗ!</h1>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-6">
+                        <form action="" method="post" class="bg-white">
+                            <div class="form-group"><input type="text" class="form-control form-control-lg" placeholder="ФИО" name="fio"></div>
+                            <div class="form-group"><input type="text" class="form-control form-control-lg" placeholder="Ваш телефон" name="phone"></div>
+                            <div class="form-group"><input type="text" class="form-control form-control-lg" placeholder="Ваш город" name="city"></div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Cогласен на обработку моих персональных данных в соответствии с условиями указанными
+                                </label>
+                            </div>
+                            <button type="submit" class="btn bg-warning btn-lg btn-block">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer></footer>
 </div>
 </body>
