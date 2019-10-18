@@ -308,13 +308,17 @@ body {
   font-style: normal;
 }
 .header {
-  background: yellow;
+  padding: 10px;
+  background: #fba43b;
 }
 .logo-img {
   width: 300px;
-  height: 300px;
+  height: 183px;
   background-image: url('/img/logo.png');
+  -webkit-background-image: url('/img/logo.png');
+  -moz-background-image: url('/img/logo.png');
   background-size: contain;
   background-repeat: no-repeat;
+  display: inline-block;
 }
 /*# sourceMappingURL=style.css.map */

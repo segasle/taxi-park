@@ -8,16 +8,21 @@ body{
   font-style: normal;
 }
 .header{
+  padding: 10px;
   background: @bg;
 }
 
 .logo{
   &-img{
     @wh: 300px;
+    @bi: url('/img/logo.png');
     width: @wh;
-    height: @wh;
-    background-image: url('/img/logo.png');
+    height: 183px;
+    background-image: @bi;
+    -webkit-background-image: @bi;
+    -moz-background-image: @bi;
     background-size: contain;
     background-repeat: no-repeat;
+    display: inline-block;
   }
 }

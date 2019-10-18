@@ -16,7 +16,7 @@
           content="">
     <meta name="description" content="">
     <title></title>
-    <link rel="icon" href="/images/logo-light.png" type="image/png" sizes="<16>X<16>">
+    <link rel="icon" href="/img/logo.png" type="image/png" sizes="<16>X<16>">
     <link rel="stylesheet" href="/icons/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -29,7 +29,7 @@
             <div class="col-12 col-md-6">
                 <div class="float-right">
                     <div class="logo">
-                        <div class="logo-img"></div>
+                        <a href="/" class="logo-img"></a>
                     </div>
                 </div>
             </div>
