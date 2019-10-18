@@ -27,18 +27,18 @@
     <header class="header">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
                     <div class="block-center-xs block-center-sm">
                         <div class="logo">
                             <a href="/" class="logo-img"></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-8">
                     <div class="row align-items-center">
                         <div class="col-12 col-md-3">
                             <div class="block-center-xs block-center-sm">
-                                <i class="fab fa-vk fa-3x"></i>
+                                <a href="" class="fab fa-vk fa-3x"></a>
                             </div>
                         </div>
                         <div class="col-12 col-md-9">
@@ -48,7 +48,7 @@
                                         <i class="fas fa-phone-square-alt fa-3x"></i>
                                     </div>
                                     <div class="float-left">
-                                        <a href="" class="h3 padding-top d-inline-block">8-999-999-99-99</a>
+                                        <a href="" class="h3 padding-top d-inline-block text-white">8-999-999-99-99</a>
                                     </div>
                                 </div>
                                 <div class="wrap margin-top">
@@ -56,7 +56,7 @@
                                         <i class="fab fa-whatsapp fa-3x"></i>
                                     </div>
                                     <div class="float-left">
-                                        <a href="viber://chat?number=79153301314" class="h3 padding-top d-inline-block">Напишите нам в WhatsApp</a>
+                                        <a href="viber://chat?number=79153301314" class="h3 padding-top d-inline-block text-white">Напишите нам в WhatsApp</a>
                                     </div>
                                 </div>
                             </div>
