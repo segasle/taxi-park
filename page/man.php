@@ -72,7 +72,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-8 col-lg-6">
-                        <h1 class="text-center text-white">ПОДКЛЮЧАЙТЕСЬ К ЗАКАЗАМ ЯНДЕКС.ТАКСИ С ФИКСИРОВАННОЙ КОМИССИЕЙ ЗА ЗАКАЗ!</h1>
+                        <h1 class="text-center text-white text-uppercase">Подключайтесь к заказам Яндекс такси без комиссии!</h1>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4 col-lg-6">
                         <form action="" method="post" class="bg-white">
@@ -82,10 +82,10 @@
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                 <label class="form-check-label" for="defaultCheck1">
-                                    Cогласен на обработку моих персональных данных в соответствии с условиями указанными
+                                    Cогласен на обработку моих персональных данных
                                 </label>
                             </div>
-                            <button type="submit" class="btn bg-warning btn-lg btn-block">Отправить</button>
+                            <button type="submit" class="btn bg-warning btn-lg btn-block margin-top">Отправить</button>
                         </form>
                     </div>
                 </div>
