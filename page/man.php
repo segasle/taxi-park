@@ -24,7 +24,7 @@
 </head>
 <body>
 <div class="wrapper">
-    <header>
+    <header class="header">
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="float-right">

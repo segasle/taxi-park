@@ -1,9 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap&subset=cyrillic,cyrillic-ext');
+//@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap&subset=cyrillic,cyrillic-ext');
+@bg: yellow;
 @import "reset.less";
 body{
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: normal;
   font-style: normal;
 }
-@import "adaptive.less";
+.header{
+  background: @bg;
+}
+
+.logo{
+  &-img{
+    @wh: 300px;
+    width: @wh;
+    height: @wh;
+    background-image: url('/img/logo.png');
+    background-size: contain;
+  }
+}
