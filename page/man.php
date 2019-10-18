@@ -25,18 +25,34 @@
 <body>
 <div class="wrapper">
     <header class="header">
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <div class="float-right">
-                    <div class="logo">
-                        <a href="/" class="logo-img"></a>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="float-right">
+                        <div class="logo">
+                            <a href="/" class="logo-img"></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-6">
-                <div class="row">
-                    <div class="col-12 col-col-md-6"></div>
-                    <div class="col-12 col-col-md-6"></div>
+                <div class="col-12 col-md-8">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="block-center">
+                                <i class="fab fa-vk fa-3x"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="block">
+                                <div class="float-left">
+                                    <i class="fas fa-phone-square-alt fa-3x"></i>
+                                </div>
+                                <div class="float-left">
+                                    <a href="" class="h1">8-999-999-99-99</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
