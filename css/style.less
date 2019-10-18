@@ -1,5 +1,7 @@
 //@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap&subset=cyrillic,cyrillic-ext');
 @bg: #fba43b;
+@bg2: #000;
+@bg3: #fff;
 @import "reset.less";
 body{
   font-family: 'Open Sans Condensed', sans-serif;
@@ -15,9 +17,23 @@ div{
     clear: both;
   }
 }
+.fa{
+  &-vk{
+    color: #2078f6;
+  }
+  &-phone-square-alt{
+    color: @bg3;
+  }
+  &-whatsapp {
+    color: #07c525;
+  }
+}
 .header{
-  padding: 10px;
-  background: @bg;
+  padding: 15px 0;
+  background: @bg2;
+  a{
+    color: @bg3;
+  }
 }
 .padding{
   &-right{

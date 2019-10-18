@@ -316,9 +316,21 @@ div:before {
   display: block;
   clear: both;
 }
+.fa-vk {
+  color: #2078f6;
+}
+.fa-phone-square-alt {
+  color: #fff;
+}
+.fa-whatsapp {
+  color: #07c525;
+}
 .header {
-  padding: 10px;
-  background: #fba43b;
+  padding: 15px 0;
+  background: #000;
+}
+.header a {
+  color: #fff;
 }
 .padding-right {
   padding-right: 15px;

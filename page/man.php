@@ -35,7 +35,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-8 col-lg-8">
-                    <div class="row">
+                    <div class="row align-items-center">
                         <div class="col-12 col-md-3">
                             <div class="block-center-xs block-center-sm">
                                 <i class="fab fa-vk fa-3x"></i>
@@ -48,7 +48,7 @@
                                         <i class="fas fa-phone-square-alt fa-3x"></i>
                                     </div>
                                     <div class="float-left">
-                                        <a href="" class="h1">8-999-999-99-99</a>
+                                        <a href="" class="h3 padding-top d-inline-block">8-999-999-99-99</a>
                                     </div>
                                 </div>
                                 <div class="wrap margin-top">
