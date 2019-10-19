@@ -97,6 +97,7 @@
         </div>
         <div class="wrap">
             <div class="container">
+                <h2 class="h1 text-center">ПОЧЕМУ СТОИТ РАБОТАТЬ ИМЕННО С НАМИ?</h2>
                 <div class="row">
 
                 </div>
