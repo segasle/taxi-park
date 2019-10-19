@@ -130,7 +130,11 @@
             </div>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="container">
+            <p class="text-white">Все права защищены &copy; <?php echo date('Y'); ?></p>
+        </div>
+    </footer>
 </div>
 </body>
 </html>

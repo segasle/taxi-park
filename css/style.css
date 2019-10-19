@@ -332,7 +332,8 @@ form {
 .fa-whatsapp {
   color: #07c525;
 }
-.header {
+.header,
+footer {
   padding: 15px 0;
   background: #000;
 }
