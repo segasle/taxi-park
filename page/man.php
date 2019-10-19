@@ -67,7 +67,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="ndra-container">
         <div class="wrap bg margin-bottom" style="background-image: url('/img/bg.jpg');">
             <div class="container">
                 <div class="row">
@@ -79,7 +79,7 @@
                         <form action="" method="post" class="bg-white">
                             <div class="form-group"><input type="text" class="form-control form-control-lg"
                                                            placeholder="ФИО" name="fio"></div>
-                            <div class="form-group"><input type="text" class="form-control form-control-lg"
+                            <div class="form-group"><input type="tel" class="form-control form-control-lg"
                                                            placeholder="Ваш телефон" name="phone"></div>
                             <div class="form-group"><input type="text" class="form-control form-control-lg"
                                                            placeholder="Ваш город" name="city"></div>
@@ -146,4 +146,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+<script src="/library/jquery.maskedinput.min.js"></script>
+<script src="/js/main.js?t=<?php echo(microtime(true) . rand()); ?>"></script>
 </html>
