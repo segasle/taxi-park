@@ -3,57 +3,72 @@
 @bg2: #000;
 @bg3: #fff;
 @import "reset.less";
-body{
+body {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
 }
-div{
+
+div {
   box-sizing: border-box;
-  &:after, &:before{
+
+  &:after, &:before {
     content: '';
     display: block;
     clear: both;
   }
 }
-form{
+
+form {
   padding: 50px;
   border-radius: 20px;
 }
-.fa{
-  &-vk{
+
+.fa {
+  &-vk {
     color: #2078f6;
   }
-  &-phone-square-alt{
+
+  &-phone-square-alt {
     color: @bg3;
   }
+
   &-whatsapp {
     color: #07c525;
   }
 }
-.header{
+
+.header {
   padding: 15px 0;
   background: @bg2;
 }
-.padding{
-  &-right{
+
+.padding {
+  &-right {
     padding-right: 15px;
   }
-  &-top{
+
+  &-top {
     padding-top: 10px;
   }
 }
-.margin{
-  &-right{
+
+.margin {
+  &-right {
     margin-right: 15px;
   }
-  &-top{
+
+  &-top {
     margin-top: 10px;
   }
+  &-bottom {
+    margin-bottom: 50px;
+  }
 }
-.logo{
-  &-img{
+
+.logo {
+  &-img {
     @wh: 300px;
     @bi: url('/img/logo.png');
     width: @wh;
@@ -66,16 +81,18 @@ form{
     display: inline-block;
   }
 }
-.bg{
+
+.bg {
   padding: 50px 0;
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
 }
+
 @media (max-width: 576px) {
-  .block{
-    &-center{
-      &-xs{
+  .block {
+    &-center {
+      &-xs {
         display: table;
         margin: auto;
       }
@@ -84,9 +101,9 @@ form{
 }
 
 @media (max-width: 768px) {
-  .block{
-    &-center{
-      &-sm{
+  .block {
+    &-center {
+      &-sm {
         display: table;
         margin: auto;
       }
@@ -95,7 +112,9 @@ form{
 }
 
 // Большие девайсы (десктопы, >= 992px)
-@media (min-width: 992px) { }
+@media (min-width: 992px) {
+}
 
 // Экстрабольшие девайсы (большие десктопы, >= 1200px)
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {
+}

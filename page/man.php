@@ -68,7 +68,7 @@
         </div>
     </header>
     <main>
-        <div class="wrap bg" style="background-image: url('/img/bg.jpg');">
+        <div class="wrap bg margin-bottom" style="background-image: url('/img/bg.jpg');">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-8 col-lg-6">
@@ -97,9 +97,27 @@
         </div>
         <div class="wrap">
             <div class="container">
-                <h2 class="h1 text-center">ПОЧЕМУ СТОИТ РАБОТАТЬ ИМЕННО С НАМИ?</h2>
+                <h2 class="h1 text-center margin-bottom">ПОЧЕМУ СТОИТ РАБОТАТЬ ИМЕННО С НАМИ?</h2>
                 <div class="row">
-
+                    <?php
+                    $sql = mysqli('SELECT * FROM `work`');
+                    foreach ($sql as $item) {
+                        ?>
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <div class="block">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="icon">
+                                            <i class="fas <?php echo $item['icon']; ?> fa-3x"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <?php
+                    }
+                    ?>
                 </div>
             </div>
         </div>
