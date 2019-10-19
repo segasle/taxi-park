@@ -104,14 +104,17 @@
                     foreach ($sql as $item) {
                         ?>
                         <div class="col-12 col-sm-12 col-md-6">
-                            <div class="block">
+                            <div class="block margin-top">
                                 <div class="row">
-                                    <div class="col">
+                                    <div class="col-4">
                                         <div class="icon">
-                                            <i class="fas <?php echo $item['icon']; ?> fa-3x"></i>
+                                            <i class="fas fa-<?php echo $item['icon']; ?> fa-3x"></i>
                                         </div>
                                     </div>
-                                    <div class="col"></div>
+                                    <div class="col-8">
+                                        <b><?php echo $item['head']; ?></b>
+                                        <p class="padding-top"><?php echo $item['description']; ?></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
