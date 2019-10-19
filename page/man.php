@@ -102,6 +102,11 @@
                     <?php
                     $sql = mysqli('SELECT * FROM `work`');
                     foreach ($sql as $item) {
+                        if ($item['stock'] != null){
+                            $stock = ' - <i class="text-danger">'.$item['stock'].'</i>';
+                        }else{
+                            $stock = '';
+                        }
                         ?>
                         <div class="col-12 col-sm-12 col-md-6">
                             <div class="block margin-top">
@@ -112,7 +117,7 @@
                                         </div>
                                     </div>
                                     <div class="col-8">
-                                        <b><?php echo $item['head']; ?></b>
+                                        <b><?php echo $item['head'] . $stock; ?></b>
                                         <p class="padding-top"><?php echo $item['description']; ?></p>
                                     </div>
                                 </div>
