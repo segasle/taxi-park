@@ -71,11 +71,11 @@
         <div class="wrap bg margin-bottom" style="background-image: url('/img/bg.jpg');">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-md-8 col-lg-6">
+                    <div class="col-12 col-sm-12 col-md-7 col-lg-6">
                         <h1 class="text-center text-white text-uppercase">Подключайтесь к заказам Яндекс такси без
                             комиссии!</h1>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-6">
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-6">
                         <form action="" method="post" class="bg-white">
                             <div class="form-group"><input type="text" class="form-control form-control-lg"
                                                            placeholder="ФИО" name="fio"></div>
