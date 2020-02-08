@@ -68,7 +68,7 @@
         </div>
     </header>
     <main class="ndra-container">
-        <div class="wrap bg margin-bottom" style="background-image: url('/img/bg.jpg');">
+        <div class="wrap bg margin-bottom" id="button" style="background-image: url('/img/bg.jpg');">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-7 col-lg-6">
@@ -98,7 +98,7 @@
         <div class="wrap">
             <div class="container">
                 <h2 class="h1 text-center margin-bottom">ПОЧЕМУ СТОИТ РАБОТАТЬ ИМЕННО С НАМИ?</h2>
-                <div class="row">
+                <div class="row margin-bottom">
                     <?php
                     $sql = mysqli('SELECT * FROM `work`');
                     foreach ($sql as $item) {
@@ -128,6 +128,15 @@
                     ?>
                 </div>
             </div>
+          <div class="bg-black">
+            <h3 class="h1 text-center text-white">Сравните сами!</h3>
+            <div class="total d-table block-center">
+              <div class="d-flex justify-content-between align-items-center">
+                <p class="text-white total-title">В вашем парке Вы заплатите комиссий</p>
+                <p class="text-white">170<span class="small">р в день</span></p>
+              </div>
+            </div>
+          </div>
         </div>
     </main>
     <footer>
