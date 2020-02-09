@@ -56,12 +56,19 @@ form {
   }
 }
 .total{
+  @size: 25px;
+  @sizeX: @size + 10px;
   &-title {
-    font-size: 25px;
-    margin-right: 30px;
+    font-size: @size;
   }
-
+  &-number {
+    font-size: @sizeX;
+  }
 }
+.small{
+  font-size: 40%;
+}
+
 .margin {
   &-right {
     margin-right: 15px;
@@ -126,9 +133,18 @@ form {
       }
     }
   }
+
 }
 
 // Большие девайсы (десктопы, >= 992px)
+@media (min-width: 768px) {
+
+  .total{
+    &-title {
+      margin-right: 30px;
+    }
+  }
+}
 @media (min-width: 992px) {
 }
 
