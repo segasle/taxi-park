@@ -316,6 +316,9 @@ div:before {
   display: block;
   clear: both;
 }
+.wrap {
+  padding: 30px 0;
+}
 form {
   padding: 50px;
   border-radius: 20px;

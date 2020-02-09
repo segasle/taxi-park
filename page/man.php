@@ -128,28 +128,47 @@
             ?>
         </div>
       </div>
-      <div class="bg-black">
-        <h3 class="h1 text-center text-white">Сравните сами!</h3>
+      <div class="bg-black wrap">
+        <div class="container">
 
-          <?php
-          $sql = mysqli("SELECT * FROM `total`");
-          foreach ($sql as $item) {
-              ?>
-            <div class="total">
-              <div class="d-flex justify-content-between align-items-center flex-column flex-sm-row">
-                <p class="text-white total-title text-center"> <?php echo $item['text'];?>
-</p>
-                <p class="text-white total-number"><?php echo $item['number'];?><span class="small">р в день</span></p>
+          <h3 class="h1 text-center text-white">Сравните сами!</h3>
+
+            <?php
+            $sql = mysqli("SELECT * FROM `total`");
+            foreach ($sql as $item) {
+                ?>
+              <div class="total">
+                <div class="d-flex justify-content-between align-items-center flex-column flex-sm-row">
+                  <p class="text-white total-title text-center"> <?php echo $item['text'];?>
+                  </p>
+                  <p class="text-white total-number"><?php echo $item['number'];?><span class="small">р в день</span></p>
+                </div>
               </div>
-            </div>
-              <?php
+                <?php
 
-          }
-          ?>
-        <a href="#button" class="btn bg-warning btn-lg block-center margin-top">Начать зарабатывать</a>
+            }
+            ?>
+          <a href="#button" class="btn bg-warning btn-lg block-center margin-top">Начать зарабатывать</a>
 
+        </div>
       </div>
+      <div class="wrap">
+        <div class="container">
 
+          <h4 class="h1 text-center">Заработок в месяц</h4>
+          <p class="block-center text-justify" style="max-width: 768px;">
+            Конкретной суммы нет . Все зависит от вас,если у вас арендованный автомобиль  средний заработок в месяц составить 50-80 тыс. руб, если автомобиль личный можно заработать до 110 тыс .руб(В городе Москва)
+          </p>
+          <h5 class="h1 text-center margin-top">Что нужно для подключения к Яндекс.Такси:</h5>
+          <ol>
+            <li><b>Паспорт</b><b>.</b></li>
+            <li><b>Водительское удостоверение категории B.</b>&nbsp;Стаж не&nbsp;менее трех лет.</li>
+            <li><b>СТС.</b></li>
+            <li><b>Лицензия такси.</b></li>
+            <li><b>Смартфон или планшет на&nbsp;Android</b> версии 4.0 и&nbsp;выше. Айфоны не&nbsp;подходят.</li>
+          </ol>
+        </div>
+      </div>
     </div>
   </main>
   <footer>
